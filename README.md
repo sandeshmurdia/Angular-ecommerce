@@ -8,7 +8,7 @@
 ```bash
 npm install
 ```
-3. Add the your project script found in project settings of your **Zipy** account in app.html file.
+3. Add the your project script found in project settings of your **Zipy** account in index.html file.
     
 4. Run the command
 ```bash
