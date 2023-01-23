@@ -1,27 +1,28 @@
-# AddToCart
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.4.
+# Angular ecommerce App
 
-## Development server
+### Follow these steps to try out Zipy
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+1. Clone this repository
+2. Navigate to the app's directory and run the command 
+```bash
+npm install
+```
+3. Add the your project script found in project settings of your **Zipy** account in app.html file.
+    
+4. Run the command
+```bash
+ng serve
+```
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+5. Clone and run [Error Thrower](https://github.com/sandeshmurdia/Error-thrower)(which will throw random network errors for your app) and run it. 
 
-## Build
+6. Perform some actions in the App and start seeing your session on your **Zipy Dashboard**.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### To generate errors go to products from navbar and 
+1. Add product to cart.
+2. Click on delete icon 
+3. Click on checkout.
+4. Click on Empty cart.
